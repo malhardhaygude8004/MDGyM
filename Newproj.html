@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:450px)"href="cssmobi_1.css">
+    <style>
+        /* CSS Reset */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            font-family: 'Baloo Bhai 2', cursive;
+            /* height: 4500px; */
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 3px solid red; */
+            position: absolute; 
+            left: 38px;
+            top: 7px;
+
+        }
+
+        .left img {
+            width: 113px;
+            height: 67px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 0px;
+            font-size: 22px;
+        }
+
+        .mid {
+            display: block;
+            /* border: 3px solid blue; */
+            width: 43%;
+            margin: 20px auto;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 3px solid green; */
+            position: absolute;
+            right: 23px;
+            top: 20px;
+        }
+        .right button a{
+            color: blanchedalmond;
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 47px 11px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 7px 9px;
+            padding: 5px 15px;
+            background-color: black;
+            color: white;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 18px;
+                
+        }
+
+        .btn:hover {
+            background-color: rgb(83, 83, 83);
+        }
+
+        .container {
+            /* font-color: honeydew; */
+            border: 2px solid white;
+            margin: 100px 81px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 29px;
+        }
+
+        .form-grp input {
+            text-align: center;
+            display: block;
+            width: 439px;
+            padding: 5px;
+            border: 3px solid black;
+            margin: 7px auto;
+            font-size: 21px;
+            border-radius: 18px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .container button {
+            display: block;
+            width: 38%;
+            margin: 14px auto;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+        
+        .home{
+            border: 2px solid white;
+            border-radius: 33px;
+            text-align: center;
+            padding:23px 23px;
+            margin: 20px 2px;
+        }
+        #fit-calc button{
+            
+            border: 2px solid rgb(17, 17, 17);
+            border-radius: 23px;
+            padding: 12px 12px;
+            margin: 12px 12px;
+            position: relative;
+            left: 601px;
+        }
+        #fit-calc button a{
+            text-decoration: none;
+            color: black;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gymlogo.jpg" alt="">
+            <div>MD Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li class="nav-li"><a href="#home" class="">Home</a></li>
+                <li class="nav-li"><a href="#about">About Us</a></li>
+                <li class="nav-li"><a href="#fit-calc">Fitness Calculator</a></li>
+                <li class="nav-li"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="https://wa.me/+918766588004" target="_blank">Whatsapp Us
+                    Now</a></button><button class="btn"><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                    target="_blank">Email Us</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym of Hivtad </h1>
+        <form action="noaction.php">
+            <div class="form-grp">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" id="" placeholder="Enter Your Address">
+            </div>
+            <div class="form-grp">
+                <input type="text" name="" id="" placeholder="Enter Your Contact Number">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <section id="home">
+               <div class="home">
+                   <h1>Home</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius eos harum dolorum quia optio illo, voluptates repellat, sequi ipsum perferendis, porro quibusdam deleniti labore sed iure voluptatibus autem et sapiente. Sapiente hic distinctio natus odio veritatis, reiciendis, mollitia in ipsam labore dolores inventore, dolorem voluptas unde rem doloremque nobis qui minima tempora error? In a, doloremque vitae provident possimus eum, fugit adipisci sequi repudiandae aut rerum blanditiis suscipit ex perferendis. Officiis consequuntur dicta delectus aspernatur recusandae blanditiis officia, exercitationem non suscipit placeat natus eveniet enim sunt veritatis eos laboriosam adipisci maiores amet iure reiciendis, minima in. Nihil deserunt hic eos? At eos recusandae ipsum voluptas ea expedita deserunt, ad id distinctio veniam nobis aperiam similique repellat esse a quia? Numquam hic aut dicta adipisci aliquid facere odit illo dolorem! Distinctio natus quidem iusto debitis rerum cupiditate, perspiciatis dolorum error commodi corrupti id! Ipsam culpa libero quo aliquam, alias quia explicabo voluptas repellat amet aut cupiditate est natus nulla enim atque soluta exercitationem iusto quaerat mollitia sequi tenetur eum consequatur ea quibusdam. Cumque mollitia esse hic ullam ratione libero officia quidem accusamus qui blanditiis sed, similique quibusdam rerum iste odio explicabo aperiam. Saepe tempore facilis, eum tenetur, repellat nesciunt quas quis delectus aut rem expedita. Veniam, quasi! Et minima laborum quidem architecto excepturi quaerat omnis possimus quae voluptates repellat illo maxime aspernatur nobis nostrum, consequatur dicta nihil natus. Veritatis delectus consequatur at dolorum. Fugit, at?</p>
+               </div>
+    </section>
+    <section id="about">
+               <div class="home">
+                   <h1>About Us</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius eos harum dolorum quia optio illo, voluptates repellat, sequi ipsum perferendis, porro quibusdam deleniti labore sed iure voluptatibus autem et sapiente. Sapiente hic distinctio natus odio veritatis, reiciendis, mollitia in ipsam labore dolores inventore, dolorem voluptas unde rem doloremque nobis qui minima tempora error? In a, doloremque vitae provident possimus eum, fugit adipisci sequi repudiandae aut rerum blanditiis suscipit ex perferendis. Officiis consequuntur dicta delectus aspernatur recusandae blanditiis officia, exercitationem non suscipit placeat natus eveniet enim sunt veritatis eos laboriosam adipisci maiores amet iure reiciendis, minima in. Nihil deserunt hic eos? At eos recusandae ipsum voluptas ea expedita deserunt, ad id distinctio veniam nobis aperiam similique repellat esse a quia? Numquam hic aut dicta adipisci aliquid facere odit illo dolorem! Distinctio natus quidem iusto debitis rerum cupiditate, perspiciatis dolorum error commodi corrupti id! Ipsam culpa libero quo aliquam, alias quia explicabo voluptas repellat amet aut cupiditate est natus nulla enim atque soluta exercitationem iusto quaerat mollitia sequi tenetur eum consequatur ea quibusdam. Cumque mollitia esse hic ullam ratione libero officia quidem accusamus qui blanditiis sed, similique quibusdam rerum iste odio explicabo aperiam. Saepe tempore facilis, eum tenetur, repellat nesciunt quas quis delectus aut rem expedita. Veniam, quasi! Et minima laborum quidem architecto excepturi quaerat omnis possimus quae voluptates repellat illo maxime aspernatur nobis nostrum, consequatur dicta nihil natus. Veritatis delectus consequatur at dolorum. Fugit, at?</p>
+               </div>
+    </section>
+    <section id="fit-calc">
+                           <button><a href="https://www.calculator.net/bmi-calculator.html" target="_blank">Click Here For Fitness Calculation</a></button>
+    </section>
+</body>
+
+</html>
